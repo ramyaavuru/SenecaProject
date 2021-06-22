@@ -27,7 +27,7 @@ public class DataAdapter extends RecyclerView.Adapter<DataAdapter.Viewholder> {
             this.context = context;
             this.PojoArrayList = PojoArrayList;
 
-         }
+        }
 
         @NonNull
         @Override
