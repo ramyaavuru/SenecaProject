@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         Animation set = AnimationUtils.loadAnimation(this,
                 R.anim.splash_screen_animation);
         splash_imageView.setAnimation(set);
-        set.start();
+        set.start();    
 
         Thread checkForData = new Thread(){
             @Override
